@@ -1,0 +1,13 @@
+{
+    "CS20 Case": {
+        "url": "https://someurl.com/item",
+        "quantity": 15,
+        "buying_price": 0.15,
+    },
+    "Chroma 2 Case": {
+        "url": "https://someurl.com/item",
+        "quantity": 18,
+        "buying_price": 4.15,
+    }
+
+}
