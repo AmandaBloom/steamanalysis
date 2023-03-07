@@ -1,19 +1,197 @@
 {
     "CS20 Case": {
-        "url": "https://someurl.com/item",
-        "quantity": 15,
-        "buying_price": 0.15
+        "url": "https://steamcommunity.com/market/listings/730/CS20%20Case",
+        "quantity": 101,
+        "buying_price": 0.19
     },
     "Chroma 2 Case": {
-        "url": "https://someurl.com/item",
-        "quantity": 18,
-        "buying_price": 0.01
+        "url": "https://steamcommunity.com/market/listings/730/Chroma%202%20Case",
+        "quantity": 9,
+        "buying_price": 0.00
     },
-
+    "Chroma 3 Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Chroma%203%20Case",
+        "quantity": 100,
+        "buying_price": 0.13
+    },
+    "Clutch Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Clutch%20Case",
+        "quantity": 7,
+        "buying_price": 0.17
+    },
+    "Danger Zone Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Danger%20Zone%20Case",
+        "quantity": 56,
+        "buying_price": 0.28
+    },
+    "Falchion Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Falchion%20Case",
+        "quantity": 4,
+        "buying_price": 0.00
+    },
+    "Fracture Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Fracture%20Case",
+        "quantity": 2,
+        "buying_price": 0.00
+    },
+    "Glove Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Glove%20Case",
+        "quantity": 39,
+        "buying_price": 0.96
+    },
+    "Horizon Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Horizon%20Case",
+        "quantity": 1,
+        "buying_price": 0.00
+    },
+    "Operation Hydra Access Pass": {
+        "url": "https://steamcommunity.com/market/listings/730/Operation%20Hydra%20Access%20Pass",
+        "quantity": 5,
+        "buying_price": 10.7
+    },
+    "Prisma Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Prisma%20Case",
+        "quantity": 105,
+        "buying_price": 0.13
+    },
+    "Prisma 2 Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Prisma%202%20Case",
+        "quantity": 6,
+        "buying_price": 0.00
+    },
+    "Revolver Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Revolver%20Case",
+        "quantity": 101,
+        "buying_price": 0.15
+    },
+    "Shadow Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Shadow%20Case",
+        "quantity": 10,
+        "buying_price": 0.00
+    },
+    "Snakebite Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Snakebite%20Case",
+        "quantity": 1,
+        "buying_price": 0
+    },
+    "Spectrum 2 Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Spectrum%202%20Case",
+        "quantity": 1,
+        "buying_price": 0
+    },
+    "Operation Wildfire Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Operation%20Wildfire%20Case",
+        "quantity": 100,
+        "buying_price": 0.59
+    },
+    "Sticker | Astralis | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Astralis%20%7C%20Berlin%202019",
+        "quantity": 15,
+        "buying_price": 3.30
+    },    
+    "Sticker | chrisJ | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20chrisJ%20%7C%20Berlin%202019",
+        "quantity": 33,
+        "buying_price": 0.47
+    },    
+    "Sticker | DeadFox | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20DeadFox%20%7C%20Berlin%202019",
+        "quantity": 50,
+        "buying_price": 0.35
+    },  
+    "Sticker | dupreeh | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20dupreeh%20%7C%20Berlin%202019",
+        "quantity": 50,
+        "buying_price": 0.43
+    },    
+    "Sticker | karrigan | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20karrigan%20%7C%20Berlin%202019",
+        "quantity": 50,
+        "buying_price": 0.47
+    },    
+    "Sticker | Kjaerbye | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Kjaerbye%20%7C%20Berlin%202019",
+        "quantity": 50,
+        "buying_price": 0.39
+    },    
+    "Sticker | oskar | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20oskar%20%7C%20Berlin%202019",
+        "quantity": 50,
+        "buying_price": 0.38
+    },    
+    "Sticker | RpK | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20RpK%20%7C%20Berlin%202019",
+        "quantity": 50,
+        "buying_price": 0.38
+    },    
+    "Sticker | xseveN | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20xseveN%20%7C%20Berlin%202019",
+        "quantity": 50,
+        "buying_price": 0.41
+    },    
+    "Sticker | xsepower | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20xsepower%20%7C%20Berlin%202019",
+        "quantity": 50,
+        "buying_price": 0.4
+    }, 
+    "Galil AR | Signal": {
+        "url": "https://steamcommunity.com/market/listings/730/Galil%20AR%20%7C%20Signal%20(Minimal%20Wear)",
+        "quantity": 1,
+        "buying_price": 3.14
+    },    
+    "StatTrak™ Glock-18 | Bunsen Burner (Field-Tested)": {
+        "url": "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20Glock-18%20%7C%20Bunsen%20Burner%20(Field-Tested)",
+        "quantity": 1,
+        "buying_price": 4.33
+    },    
+    "StatTrak™ USP-S | Flashback (Factory New)": {
+        "url": "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20USP-S%20%7C%20Flashback%20(Factory%20New)",
+        "quantity": 1,
+        "buying_price": 24.81
+    },    
     "Special Agent Ava | FBI": {
-        "url": "https://someurl.com/item",
-        "quantity": 18,
-        "buying_price": 0.01
+        "url": "https://steamcommunity.com/market/listings/730/Special%20Agent%20Ava%20%7C%20FBI",
+        "quantity": 1,
+        "buying_price": 39.12
+    },    
+    "StatTrak™ AK-47 | Uncharted (Well-Worn)": {
+        "url": "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Uncharted%20%28Well-Worn%29",
+        "quantity": 1,
+        "buying_price": 15.73
+    },
+    "Music Kit | Lennie Moore, Java Havana Funkaloo": {
+        "url": "https://steamcommunity.com/market/listings/730/Music%20Kit%20%7C%20Lennie%20Moore%2C%20Java%20Havana%20Funkaloo",
+        "quantity": 1,
+        "buying_price": 0.00 
+    },
+    "Desert Eagle | Urban Rubble (Minimal Wear)": {
+        "url": "https://steamcommunity.com/market/listings/730/Desert%20Eagle%20%7C%20Urban%20Rubble%20%28Minimal%20Wear%29",
+        "quantity": 1,
+        "buying_price": 0.00
+    },
+    "AWP | Corticera (Minimal Wear)": {
+        "url": "https://steamcommunity.com/market/listings/730/AWP%20%7C%20Corticera%20(Minimal%20Wear)",
+        "quantity": 1,
+        "buying_price": 0.00
+    },
+    "Stockholm 2021 Nuke Souvenir Package": {
+        "url": "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Nuke%20Souvenir%20Package",
+        "quantity": 1,
+        "buying_price": 9.79
+    },
+    "Stockholm 2021 Inferno Souvenir Package": {
+        "url": "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Inferno%20Souvenir%20Package",
+        "quantity": 1,
+        "buying_price": 11.20
+    },
+    "Stockholm 2021 Overpass Souvenir Package": {
+        "url": "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Overpass%20Souvenir%20Package",
+        "quantity": 1,
+        "buying_price": 11.68
+    },
+    "Stockholm 2021 Ancient Souvenir Package": {
+        "url": "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Ancient%20Souvenir%20Package",
+        "quantity": 1,
+        "buying_price": 12.03
     }
-
 }
