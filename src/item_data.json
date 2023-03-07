@@ -193,5 +193,155 @@
         "url": "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Ancient%20Souvenir%20Package",
         "quantity": 1,
         "buying_price": 12.03
+    },
+    "Sticker | 100 Thieves | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20100%20Thieves%20%7C%202020%20RMR",
+        "quantity": 103,
+        "buying_price": 0.14
+    },
+    "Sticker | Astralis | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Astralis%20%7C%202020%20RMR",
+        "quantity": 100,
+        "buying_price": 0.42
+    },
+    "Sticker | Boom | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Boom%20%7C%202020%20RMR",
+        "quantity": 10,
+        "buying_price": 0.99
+    },
+    "Sticker | Boom (Foil) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Boom%20(Foil)%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | ESPADA | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20ESPADA%20%7C%202020%20RMR",
+        "quantity": 6,
+        "buying_price": 0.99
+    },
+    "Sticker | ESPADA (Foil) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20ESPADA%20(Foil)%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | Evil Geniuses | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Evil%20Geniuses%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | Evil Geniuses (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Evil%20Geniuses%20%28Holo%29%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | FaZe | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20FaZe%20%7C%202020%20RMR",
+        "quantity": 111,
+        "buying_price": 0.36
+    },
+    "Sticker | FaZe (Gold) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20FaZe%20%28Gold%29%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | FaZe (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20FaZe%20%28Holo%29%20%7C%202020%20RMR",
+        "quantity": 3,
+        "buying_price": 0.99
+    },
+    "Sticker | Fnatic | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Fnatic%20%7C%202020%20RMR",
+        "quantity": 100,
+        "buying_price": 0.25
+    },
+    "Sticker | Gen.G | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Gen.G%20%7C%202020%20RMR",
+        "quantity": 10,
+        "buying_price": 0.99
+    },
+    "Sticker | Gen.G (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Gen.G%20%28Holo%29%20%7C%202020%20RMR",
+        "quantity": 2,
+        "buying_price": 0.99
+    },
+    "Sticker | Heroic | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Heroic%20%7C%202020%20RMR",
+        "quantity": 2,
+        "buying_price": 0.99
+    },
+    "Sticker | Liquid | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Liquid%20%7C%202020%20RMR",
+        "quantity": 100,
+        "buying_price": 0.25
+    },
+    "Sticker | Ninjas in Pyjamas | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%7C%202020%20RMR",
+        "quantity": 100,
+        "buying_price": 0.14
+    },
+    "Sticker | Ninjas in Pyjamas (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Ninjas%20in%20Pyjamas%20(Holo)%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | North | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20North%20%7C%202020%20RMR",
+        "quantity": 5,
+        "buying_price": 0.99
+    },
+    "Sticker | North (Foil) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20North%20(Foil)%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | North (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20North%20(Holo)%20%7C%202020%20RMR",
+        "quantity": 2,
+        "buying_price": 0.99
+    },
+    "Sticker | Renegades | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Renegades%20%7C%202020%20RMR",
+        "quantity": 105,
+        "buying_price": 0.14
+    },
+    "Sticker | Renegades (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Renegades%20(Holo)%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | Spirit | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Spirit%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | TYLOO | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20TYLOO%20%7C%202020%20RMR?l=polishhttps://steamcommunity.com/market/listings/730/Sticker%20%7C%20TYLOO%20%7C%202020%20RMR?l=polish",
+        "quantity": 8,
+        "buying_price": 0.99
+    },
+    "Sticker | TYLOO (Foil) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20TYLOO%20%28Foil%29%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | TYLOO (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20TYLOO%20%28Holo%29%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | Virtus.pro | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Virtus.pro%20%7C%202020%20RMR",
+        "quantity": 104,
+        "buying_price": 0.23
+    },
+    "Sticker | Virtus.pro (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Virtus.pro%20%28Holo%29%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
+    },
+    "Sticker | Vitality | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Vitality%20%7C%202020%20RMR",
+        "quantity": 1,
+        "buying_price": 0.99
     }
 }
