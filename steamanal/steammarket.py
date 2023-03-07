@@ -1,13 +1,5 @@
 import requests
 
-'''
-TODO:
-  * add all currencies supported by the Steam Marketplace to `curAbbrev`
-  * create docstrings for all functions
-  * listings parser; get total number of listings (`total_count` in JSON)
-  * get price overview via http://steamcommunity.com/market/priceoverview/
-'''
-
 # Currency abbreviations
 curAbbrev = {
     'USD' : 1,
@@ -53,15 +45,12 @@ def get_item(appid, name, currency='EUR'):
     })
     return market_item.json()
 
-def get_multiple(items,appid=440,currency='EUR'):
+def get_multiple(items,appid=730,currency='PLN'):
     """Fetch multiple items using get_item()."""
     result ={}
     for item in items:
         result[item] = get_item(appid,item,currency)
     return result
-def get_tf2_item(item, currency='EUR'):
-    """Fetches an item from TF2. (Defaults the `appid` to 440)"""
-    return get_item('440', item, currency)
-def get_csgo_item(item, currency='EUR'):
+def get_csgo_item(item, currency='PLN'):
     """Fetches an item from CSGO. (Defaults the `appid` to 730)"""
     return get_item('730', item, currency)
