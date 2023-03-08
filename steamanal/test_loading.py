@@ -26,5 +26,5 @@ with open("src/item_data.json", "r") as file:
                 data[item]["prices"] = {time.ctime(): "couldn't be loaded"}
 
 with open("src/generated.json", "w") as output:
-    json.dump(data, output)
+    json.dump(data, output, indent=4)
 

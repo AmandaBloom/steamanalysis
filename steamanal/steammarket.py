@@ -21,5 +21,5 @@ def get_item(name):
     while market_item.status_code == 429:
         market_item  = make_request(name)
         print("wyjebało!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        time.sleep(10)
+        time.sleep(30)
     return market_item.json()

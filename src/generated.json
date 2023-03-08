@@ -1,1 +1,623 @@
-{"CS20 Case": {"url": "https://steamcommunity.com/market/listings/730/CS20%20Case", "category": "case", "quantity": 101, "buying_price": 0.19, "prices": {"Wed Mar  8 13:40:39 2023": "1.76"}}, "Chroma 2 Case": {"url": "https://steamcommunity.com/market/listings/730/Chroma%202%20Case", "category": "case", "quantity": 9, "buying_price": 0.0, "prices": {"Wed Mar  8 13:40:41 2023": "5.29"}}, "Chroma 3 Case": {"url": "https://steamcommunity.com/market/listings/730/Chroma%203%20Case", "category": "case", "quantity": 100, "buying_price": 0.13, "prices": {"Wed Mar  8 13:40:42 2023": "4.79"}}, "Clutch Case": {"url": "https://steamcommunity.com/market/listings/730/Clutch%20Case", "category": "case", "quantity": 7, "buying_price": 0.17, "prices": {"Wed Mar  8 13:40:49 2023": "2.76"}}, "Danger Zone Case": {"url": "https://steamcommunity.com/market/listings/730/Danger%20Zone%20Case", "category": "case", "quantity": 56, "buying_price": 0.28, "prices": {"Wed Mar  8 13:40:50 2023": "1.27"}}, "Falchion Case": {"url": "https://steamcommunity.com/market/listings/730/Falchion%20Case", "category": "case", "quantity": 4, "buying_price": 0.0, "prices": {"Wed Mar  8 13:41:01 2023": "2.37"}}, "Fracture Case": {"url": "https://steamcommunity.com/market/listings/730/Fracture%20Case", "category": "case", "quantity": 2, "buying_price": 0.0, "prices": {"Wed Mar  8 13:41:03 2023": "1.34"}}, "Glove Case": {"url": "https://steamcommunity.com/market/listings/730/Glove%20Case", "category": "case", "quantity": 39, "buying_price": 0.96, "prices": {"Wed Mar  8 13:41:04 2023": "16.76"}}, "Horizon Case": {"url": "https://steamcommunity.com/market/listings/730/Horizon%20Case", "category": "case", "quantity": 1, "buying_price": 0.0, "prices": {"Wed Mar  8 13:41:11 2023": "1.63"}}, "Operation Hydra Access Pass": {"url": "https://steamcommunity.com/market/listings/730/Operation%20Hydra%20Access%20Pass", "category": "case", "quantity": 5, "buying_price": 10.7, "prices": {"Wed Mar  8 13:41:12 2023": "75.28"}}, "Prisma Case": {"url": "https://steamcommunity.com/market/listings/730/Prisma%20Case", "category": "case", "quantity": 105, "buying_price": 0.13, "prices": {"Wed Mar  8 13:41:13 2023": "1.30"}}, "Prisma 2 Case": {"url": "https://steamcommunity.com/market/listings/730/Prisma%202%20Case", "category": "case", "quantity": 6, "buying_price": 0.0, "prices": {"Wed Mar  8 13:41:15 2023": "1.24"}}, "Revolver Case": {"url": "https://steamcommunity.com/market/listings/730/Revolver%20Case", "category": "case", "quantity": 101, "buying_price": 0.15, "prices": {"Wed Mar  8 13:41:16 2023": "3.83"}}, "Shadow Case": {"url": "https://steamcommunity.com/market/listings/730/Shadow%20Case", "category": "case", "quantity": 10, "buying_price": 0.0, "prices": {"Wed Mar  8 13:41:23 2023": "2.00"}}, "Snakebite Case": {"url": "https://steamcommunity.com/market/listings/730/Snakebite%20Case", "category": "case", "quantity": 1, "buying_price": 0, "prices": {"Wed Mar  8 13:41:24 2023": "0.99"}}, "Spectrum 2 Case": {"url": "https://steamcommunity.com/market/listings/730/Spectrum%202%20Case", "category": "case", "quantity": 1, "buying_price": 0, "prices": {"Wed Mar  8 13:41:26 2023": "3.72"}}, "Operation Wildfire Case": {"url": "https://steamcommunity.com/market/listings/730/Operation%20Wildfire%20Case", "category": "case", "quantity": 100, "buying_price": 0.59, "prices": {"Wed Mar  8 13:41:27 2023": "3.99"}}, "Sticker | Astralis | Berlin 2019": {"url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Astralis%20%7C%20Berlin%202019", "category": "berlin19", "quantity": 15, "buying_price": 3.3, "prices": {"Wed Mar  8 13:41:29 2023": "1.63"}}, "Sticker | chrisJ | Berlin 2019": {"url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20chrisJ%20%7C%20Berlin%202019", "category": "berlin19", "quantity": 33, "buying_price": 0.47, "prices": {"Wed Mar  8 13:41:30 2023": "0.20"}}, "Sticker | DeadFox | Berlin 2019": {"url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20DeadFox%20%7C%20Berlin%202019", "category": "berlin19", "quantity": 50, "buying_price": 0.35, "prices": {"Wed Mar  8 13:41:31 2023": "0.15"}}, "Sticker | dupreeh | Berlin 2019": {"url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20dupreeh%20%7C%20Berlin%202019", "category": "berlin19", "quantity": 50, "buying_price": 0.43, "prices": {"Wed Mar  8 13:41:51 2023": "0.13"}}, "Sticker | karrigan | Berlin 2019": {"url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20karrigan%20%7C%20Berlin%202019", "category": "berlin19", "quantity": 50, "buying_price": 0.47, "prices": {"Wed Mar  8 13:41:53 2023": "0.43"}}, "Sticker | Kjaerbye | Berlin 2019": {"url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Kjaerbye%20%7C%20Berlin%202019", "category": "berlin19", "quantity": 50, "buying_price": 0.39, "prices": {"Wed Mar  8 13:41:54 2023": "0.13"}}, "Sticker | oskar | Berlin 2019": {"url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20oskar%20%7C%20Berlin%202019", "category": "berlin19", "quantity": 50, "buying_price": 0.38, "prices": {"Wed Mar  8 13:41:56 2023": "0.17"}}, "Sticker | RpK | Berlin 2019": {"url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20RpK%20%7C%20Berlin%202019", "category": "berlin19", "quantity": 50, "buying_price": 0.38, "prices": {"Wed Mar  8 13:41:57 2023": "0.13"}}, "Sticker | xseveN | Berlin 2019": {"url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20xseveN%20%7C%20Berlin%202019", "category": "berlin19", "quantity": 50, "buying_price": 0.41, "prices": {"Wed Mar  8 13:41:58 2023": "0.14"}}, "Sticker | xsepower | Berlin 2019": {"url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20xsepower%20%7C%20Berlin%202019", "category": "berlin19", "quantity": 50, "buying_price": 0.4, "prices": {"Wed Mar  8 13:42:00 2023": "0.14"}}, "Galil AR | Signal": 
+{
+    "CS20 Case": {
+        "url": "https://steamcommunity.com/market/listings/730/CS20%20Case",
+        "category": "case",
+        "quantity": 101,
+        "buying_price": 0.19,
+        "prices": {
+            "Wed Mar  8 14:03:15 2023": "1.79"
+        }
+    },
+    "Chroma 2 Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Chroma%202%20Case",
+        "category": "case",
+        "quantity": 9,
+        "buying_price": 0.0,
+        "prices": {
+            "Wed Mar  8 14:03:16 2023": "5.59"
+        }
+    },
+    "Chroma 3 Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Chroma%203%20Case",
+        "category": "case",
+        "quantity": 100,
+        "buying_price": 0.13,
+        "prices": {
+            "Wed Mar  8 14:03:18 2023": "4.79"
+        }
+    },
+    "Clutch Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Clutch%20Case",
+        "category": "case",
+        "quantity": 7,
+        "buying_price": 0.17,
+        "prices": {
+            "Wed Mar  8 14:03:19 2023": "2.76"
+        }
+    },
+    "Danger Zone Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Danger%20Zone%20Case",
+        "category": "case",
+        "quantity": 56,
+        "buying_price": 0.28,
+        "prices": {
+            "Wed Mar  8 14:03:31 2023": "1.28"
+        }
+    },
+    "Falchion Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Falchion%20Case",
+        "category": "case",
+        "quantity": 4,
+        "buying_price": 0.0,
+        "prices": {
+            "Wed Mar  8 14:03:32 2023": "2.37"
+        }
+    },
+    "Fracture Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Fracture%20Case",
+        "category": "case",
+        "quantity": 2,
+        "buying_price": 0.0,
+        "prices": {
+            "Wed Mar  8 14:03:33 2023": "1.32"
+        }
+    },
+    "Glove Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Glove%20Case",
+        "category": "case",
+        "quantity": 39,
+        "buying_price": 0.96,
+        "prices": {
+            "Wed Mar  8 14:03:35 2023": "16.79"
+        }
+    },
+    "Horizon Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Horizon%20Case",
+        "category": "case",
+        "quantity": 1,
+        "buying_price": 0.0,
+        "prices": {
+            "Wed Mar  8 14:03:41 2023": "1.65"
+        }
+    },
+    "Operation Hydra Access Pass": {
+        "url": "https://steamcommunity.com/market/listings/730/Operation%20Hydra%20Access%20Pass",
+        "category": "case",
+        "quantity": 5,
+        "buying_price": 10.7,
+        "prices": {
+            "Wed Mar  8 14:03:47 2023": "75.28"
+        }
+    },
+    "Prisma Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Prisma%20Case",
+        "category": "case",
+        "quantity": 105,
+        "buying_price": 0.13,
+        "prices": {
+            "Wed Mar  8 14:03:49 2023": "1.30"
+        }
+    },
+    "Prisma 2 Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Prisma%202%20Case",
+        "category": "case",
+        "quantity": 6,
+        "buying_price": 0.0,
+        "prices": {
+            "Wed Mar  8 14:03:50 2023": "1.26"
+        }
+    },
+    "Revolver Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Revolver%20Case",
+        "category": "case",
+        "quantity": 101,
+        "buying_price": 0.15,
+        "prices": {
+            "Wed Mar  8 14:03:52 2023": "3.79"
+        }
+    },
+    "Shadow Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Shadow%20Case",
+        "category": "case",
+        "quantity": 10,
+        "buying_price": 0.0,
+        "prices": {
+            "Wed Mar  8 14:03:53 2023": "1.99"
+        }
+    },
+    "Snakebite Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Snakebite%20Case",
+        "category": "case",
+        "quantity": 1,
+        "buying_price": 0,
+        "prices": {
+            "Wed Mar  8 14:03:54 2023": "1.01"
+        }
+    },
+    "Spectrum 2 Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Spectrum%202%20Case",
+        "category": "case",
+        "quantity": 1,
+        "buying_price": 0,
+        "prices": {
+            "Wed Mar  8 14:03:56 2023": "3.74"
+        }
+    },
+    "Operation Wildfire Case": {
+        "url": "https://steamcommunity.com/market/listings/730/Operation%20Wildfire%20Case",
+        "category": "case",
+        "quantity": 100,
+        "buying_price": 0.59,
+        "prices": {
+            "Wed Mar  8 14:03:57 2023": "3.99"
+        }
+    },
+    "Sticker | Astralis | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Astralis%20%7C%20Berlin%202019",
+        "category": "berlin19",
+        "quantity": 15,
+        "buying_price": 3.3,
+        "prices": {
+            "Wed Mar  8 14:03:58 2023": "1.63"
+        }
+    },
+    "Sticker | chrisJ | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20chrisJ%20%7C%20Berlin%202019",
+        "category": "berlin19",
+        "quantity": 33,
+        "buying_price": 0.47,
+        "prices": {
+            "Wed Mar  8 14:04:00 2023": "0.20"
+        }
+    },
+    "Sticker | DeadFox | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20DeadFox%20%7C%20Berlin%202019",
+        "category": "berlin19",
+        "quantity": 50,
+        "buying_price": 0.35,
+        "prices": {
+            "Wed Mar  8 14:04:01 2023": "0.15"
+        }
+    },
+    "Sticker | dupreeh | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20dupreeh%20%7C%20Berlin%202019",
+        "category": "berlin19",
+        "quantity": 50,
+        "buying_price": 0.43,
+        "prices": {
+            "Wed Mar  8 14:05:13 2023": "0.13"
+        }
+    },
+    "Sticker | karrigan | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20karrigan%20%7C%20Berlin%202019",
+        "category": "berlin19",
+        "quantity": 50,
+        "buying_price": 0.47,
+        "prices": {
+            "Wed Mar  8 14:05:15 2023": "0.43"
+        }
+    },
+    "Sticker | Kjaerbye | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Kjaerbye%20%7C%20Berlin%202019",
+        "category": "berlin19",
+        "quantity": 50,
+        "buying_price": 0.39,
+        "prices": {
+            "Wed Mar  8 14:05:16 2023": "0.13"
+        }
+    },
+    "Sticker | oskar | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20oskar%20%7C%20Berlin%202019",
+        "category": "berlin19",
+        "quantity": 50,
+        "buying_price": 0.38,
+        "prices": {
+            "Wed Mar  8 14:05:18 2023": "0.17"
+        }
+    },
+    "Sticker | RpK | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20RpK%20%7C%20Berlin%202019",
+        "category": "berlin19",
+        "quantity": 50,
+        "buying_price": 0.38,
+        "prices": {
+            "Wed Mar  8 14:05:19 2023": "0.13"
+        }
+    },
+    "Sticker | xseveN | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20xseveN%20%7C%20Berlin%202019",
+        "category": "berlin19",
+        "quantity": 50,
+        "buying_price": 0.41,
+        "prices": {
+            "Wed Mar  8 14:05:20 2023": "0.14"
+        }
+    },
+    "Sticker | xsepower | Berlin 2019": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20xsepower%20%7C%20Berlin%202019",
+        "category": "berlin19",
+        "quantity": 50,
+        "buying_price": 0.4,
+        "prices": {
+            "Wed Mar  8 14:05:22 2023": "0.14"
+        }
+    },
+    "Galil AR | Signal (Minimal Wear)": {
+        "url": "https://steamcommunity.com/market/listings/730/Galil%20AR%20%7C%20Signal%20(Minimal%20Wear)",
+        "category": "skin",
+        "quantity": 1,
+        "buying_price": 3.14,
+        "prices": {
+            "Wed Mar  8 14:05:23 2023": "3.72"
+        }
+    },
+    "StatTrak\u2122 Glock-18 | Bunsen Burner (Field-Tested)": {
+        "url": "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20Glock-18%20%7C%20Bunsen%20Burner%20(Field-Tested)",
+        "category": "skin",
+        "quantity": 1,
+        "buying_price": 4.33,
+        "prices": {
+            "Wed Mar  8 14:05:25 2023": "3.18"
+        }
+    },
+    "StatTrak\u2122 USP-S | Flashback (Factory New)": {
+        "url": "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20USP-S%20%7C%20Flashback%20(Factory%20New)",
+        "category": "skin",
+        "quantity": 1,
+        "buying_price": 24.81,
+        "prices": {
+            "Wed Mar  8 14:05:26 2023": "17.19"
+        }
+    },
+    "Special Agent Ava | FBI": {
+        "url": "https://steamcommunity.com/market/listings/730/Special%20Agent%20Ava%20%7C%20FBI",
+        "category": "skin",
+        "quantity": 1,
+        "buying_price": 39.12,
+        "prices": {
+            "Wed Mar  8 14:05:27 2023": "47.39"
+        }
+    },
+    "StatTrak\u2122 AK-47 | Uncharted (Well-Worn)": {
+        "url": "https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20AK-47%20%7C%20Uncharted%20%28Well-Worn%29",
+        "category": "skin",
+        "quantity": 1,
+        "buying_price": 15.73,
+        "prices": {
+            "Wed Mar  8 14:05:29 2023": "17.44"
+        }
+    },
+    "Music Kit | Lennie Moore, Java Havana Funkaloo": {
+        "url": "https://steamcommunity.com/market/listings/730/Music%20Kit%20%7C%20Lennie%20Moore%2C%20Java%20Havana%20Funkaloo",
+        "category": "skin",
+        "quantity": 1,
+        "buying_price": 0.0,
+        "prices": {
+            "Wed Mar  8 14:05:30 2023": "24.43"
+        }
+    },
+    "Desert Eagle | Urban Rubble (Minimal Wear)": {
+        "url": "https://steamcommunity.com/market/listings/730/Desert%20Eagle%20%7C%20Urban%20Rubble%20%28Minimal%20Wear%29",
+        "category": "skin",
+        "quantity": 1,
+        "buying_price": 0.0,
+        "prices": {
+            "Wed Mar  8 14:05:32 2023": "3.22"
+        }
+    },
+    "AWP | Corticera (Minimal Wear)": {
+        "url": "https://steamcommunity.com/market/listings/730/AWP%20%7C%20Corticera%20(Minimal%20Wear)",
+        "category": "skin",
+        "quantity": 1,
+        "buying_price": 0.0,
+        "prices": {
+            "Wed Mar  8 14:05:33 2023": "82.85"
+        }
+    },
+    "Stockholm 2021 Nuke Souvenir Package": {
+        "url": "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Nuke%20Souvenir%20Package",
+        "category": "stockholm21",
+        "quantity": 1,
+        "buying_price": 9.79,
+        "prices": {
+            "Wed Mar  8 14:05:34 2023": "16.57"
+        }
+    },
+    "Stockholm 2021 Inferno Souvenir Package": {
+        "url": "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Inferno%20Souvenir%20Package",
+        "category": "stockholm21",
+        "quantity": 1,
+        "buying_price": 11.2,
+        "prices": {
+            "Wed Mar  8 14:05:41 2023": "18.20"
+        }
+    },
+    "Stockholm 2021 Overpass Souvenir Package": {
+        "url": "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Overpass%20Souvenir%20Package",
+        "category": "stockholm21",
+        "quantity": 1,
+        "buying_price": 11.68,
+        "prices": {
+            "Wed Mar  8 14:05:47 2023": "17.73"
+        }
+    },
+    "Stockholm 2021 Ancient Souvenir Package": {
+        "url": "https://steamcommunity.com/market/listings/730/Stockholm%202021%20Ancient%20Souvenir%20Package",
+        "category": "stockholm21",
+        "quantity": 1,
+        "buying_price": 12.03,
+        "prices": {
+            "Wed Mar  8 14:05:54 2023": "17.43"
+        }
+    },
+    "Sticker | 100 Thieves | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20100%20Thieves%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 103,
+        "buying_price": 0.14,
+        "prices": {
+            "Wed Mar  8 14:06:00 2023": "0.05"
+        }
+    },
+    "Sticker | Astralis | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Astralis%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 100,
+        "buying_price": 0.42,
+        "prices": {
+            "Wed Mar  8 14:06:01 2023": "0.16"
+        }
+    },
+    "Sticker | Boom | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Boom%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 10,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:03 2023": "0.06"
+        }
+    },
+    "Sticker | Boom (Foil) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Boom%20(Foil)%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:04 2023": "1.46"
+        }
+    },
+    "Sticker | ESPADA | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20ESPADA%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 6,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:05 2023": "0.05"
+        }
+    },
+    "Sticker | ESPADA (Foil) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20ESPADA%20(Foil)%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:07 2023": "1.40"
+        }
+    },
+    "Sticker | Evil Geniuses | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Evil%20Geniuses%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:08 2023": "0.05"
+        }
+    },
+    "Sticker | Evil Geniuses (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Evil%20Geniuses%20%28Holo%29%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:10 2023": "0.20"
+        }
+    },
+    "Sticker | FaZe | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20FaZe%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 111,
+        "buying_price": 0.36,
+        "prices": {
+            "Wed Mar  8 14:06:11 2023": "0.17"
+        }
+    },
+    "Sticker | FaZe (Gold) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20FaZe%20%28Gold%29%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:12 2023": "21.18"
+        }
+    },
+    "Sticker | FaZe (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20FaZe%20%28Holo%29%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 3,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:14 2023": "1.24"
+        }
+    },
+    "Sticker | Fnatic | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Fnatic%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 100,
+        "buying_price": 0.25,
+        "prices": {
+            "Wed Mar  8 14:06:15 2023": "0.12"
+        }
+    },
+    "Sticker | Gen.G | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Gen.G%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 10,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:16 2023": "0.05"
+        }
+    },
+    "Sticker | Gen.G (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Gen.G%20%28Holo%29%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 2,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:18 2023": "0.23"
+        }
+    },
+    "Sticker | Heroic | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Heroic%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 2,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:29 2023": "0.06"
+        }
+    },
+    "Sticker | Liquid | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Liquid%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 100,
+        "buying_price": 0.25,
+        "prices": {
+            "Wed Mar  8 14:06:30 2023": "0.07"
+        }
+    },
+    "Sticker | Ninjas in Pyjamas | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Ninjas%20in%20Pyjamas%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 100,
+        "buying_price": 0.14,
+        "prices": {
+            "Wed Mar  8 14:06:32 2023": "0.05"
+        }
+    },
+    "Sticker | Ninjas in Pyjamas (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Ninjas%20in%20Pyjamas%20(Holo)%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:06:33 2023": "0.25"
+        }
+    },
+    "Sticker | North | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20North%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 5,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:07:36 2023": "0.07"
+        }
+    },
+    "Sticker | North (Foil) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20North%20(Foil)%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:07:37 2023": "2.95"
+        }
+    },
+    "Sticker | North (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20North%20(Holo)%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 2,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:07:39 2023": "0.99"
+        }
+    },
+    "Sticker | Renegades | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Renegades%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 105,
+        "buying_price": 0.14,
+        "prices": {
+            "Wed Mar  8 14:07:40 2023": "0.06"
+        }
+    },
+    "Sticker | Renegades (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Renegades%20(Holo)%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:07:42 2023": "0.37"
+        }
+    },
+    "Sticker | Spirit | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Spirit%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:07:43 2023": "0.12"
+        }
+    },
+    "Sticker | TYLOO | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20TYLOO%20%7C%202020%20RMR?l=polishhttps://steamcommunity.com/market/listings/730/Sticker%20%7C%20TYLOO%20%7C%202020%20RMR?l=polish",
+        "category": "rmr20",
+        "quantity": 8,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:07:44 2023": "0.36"
+        }
+    },
+    "Sticker | TYLOO (Foil) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20TYLOO%20%28Foil%29%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:07:46 2023": "8.43"
+        }
+    },
+    "Sticker | TYLOO (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20TYLOO%20%28Holo%29%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:07:47 2023": "2.48"
+        }
+    },
+    "Sticker | Virtus.pro | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Virtus.pro%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 104,
+        "buying_price": 0.23,
+        "prices": {
+            "Wed Mar  8 14:07:48 2023": "0.16"
+        }
+    },
+    "Sticker | Virtus.pro (Holo) | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Virtus.pro%20%28Holo%29%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:07:50 2023": "1.07"
+        }
+    },
+    "Sticker | Vitality | 2020 RMR": {
+        "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Vitality%20%7C%202020%20RMR",
+        "category": "rmr20",
+        "quantity": 1,
+        "buying_price": 0.99,
+        "prices": {
+            "Wed Mar  8 14:07:51 2023": "0.05"
+        }
+    }
+}
