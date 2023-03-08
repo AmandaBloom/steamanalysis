@@ -1,56 +1,24 @@
 import requests
+import time
 
-# Currency abbreviations
-curAbbrev = {
-    'USD' : 1,
-    'GBP' : 2,
-    'EUR' : 3,
-    'CHF' : 4,
-    'RUB' : 5,
-    'KRW' : 16,
-    'CAD' : 20,
-    'PLN' : 6,
-}
-
-def get_item(appid, name, currency='EUR'):
-    r"""
-    Gets item listings from the `Steam Marketplace`.
-
-    @appid ID of game item belongs to.
-
-    @name: Name of item to lookup.
-    
-    @currency: Abbreviation of currency to return listing prices in.
-    Accepted currencies:`USD,GBP,EUR,CHF,RUB,KRW,CAD`
-    
-    Defaults to `EUR`.
-    Please lookup the proper abbreviation for your currency of choice.
-    
-    Returns a json object
-    Example:
-    ```
-    {
-        "success": true,
-        "lowest_price": "0,92€",
-        "volume": "15",
-        "median_price": "0,80€"
-    }
-    ```
-    """
+def make_request(name):
     url = 'http://steamcommunity.com//market/priceoverview'
-    market_item = requests.get(url,params={
-        'appid': appid,
-        'market_hash_name': name,
-        'currency': curAbbrev[currency]        
-    })
-    return market_item.json()
+    request_data = requests.get(
+        url,
+        params={
+            'appid': 730,
+            'market_hash_name': name,
+            'currency': 6
+        },
+        # headers= {'User-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'}
+    )
+    return request_data
 
-def get_multiple(items,appid=730,currency='PLN'):
-    """Fetch multiple items using get_item()."""
-    result ={}
-    for item in items:
-        result[item] = get_item(appid,item,currency)
-    return result
-def get_csgo_item(item, currency='PLN'):
-    """Fetches an item from CSGO. (Defaults the `appid` to 730)"""
-    return get_item('730', item, currency)
+
+def get_item(name):
+    market_item  = make_request(name)
+    time.sleep(1)
+    # while market_item.status_code == 429:
+    #     market_item  = make_request(name)
+    #     time.sleep(1)
+    return market_item.json()
