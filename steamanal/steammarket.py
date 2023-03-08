@@ -18,7 +18,8 @@ def make_request(name):
 def get_item(name):
     market_item  = make_request(name)
     time.sleep(1)
-    # while market_item.status_code == 429:
-    #     market_item  = make_request(name)
-    #     time.sleep(1)
+    while market_item.status_code == 429:
+        market_item  = make_request(name)
+        print("wyjebało!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        time.sleep(10)
     return market_item.json()
