@@ -34,6 +34,9 @@ def load_data_file(path=""):
             printf(error_string)
             logs[str(datetime.datetime.now())[:-7].replace(':', '')] = error_string
 
+        if item not in generated_data:
+            generated_data[item] = data[item]
+
         if requested_item != {'success': False}:
 
             price_now = Decimal(requested_item["lowest_price"][:-2].replace(',', '.')) 
@@ -42,15 +45,8 @@ def load_data_file(path=""):
             earnded = price_now - Decimal(data[item]["buying_price"]).normalize() 
             printf("Earned" + str(earnded * data[item]["quantity"]))
             printf(str(item) + str(requested_item) + '\n')
-            if "prices" in generated_data[item]:
-                generated_data[item]["prices"].update({start_time: str(price_now*1000)})
-            else:
-                generated_data[item]["prices"] = {start_time: str(price_now)}
-        else:
-            if "prices" in generated_data[item]:
-                generated_data[item]["prices"][start_time] = "couldn't be loaded"
-            else:
-                generated_data[item]["prices"] = {start_time: "couldn't be loaded"}
+
+            generated_data[item].update({start_time: str(price_now)})
     file.close()
     generated_file.close()
     return generated_data, logs
@@ -65,8 +61,9 @@ def save_logs(logs):
 
 
 if __name__ == "__main__":
-    data, logs = load_data_file(path = "src/item_data_with_err.json")
+    data, logs = load_data_file(path = "src/example_data.json")
             
     save_market_info(data)
-    save_logs(logs)
+    if logs != {}:
+        save_logs(logs)
     a = input("Press ANY key to shutdown")

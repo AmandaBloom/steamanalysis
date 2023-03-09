@@ -3,135 +3,90 @@
         "url": "https://steamcommunity.com/market/listings/730/Revolver%20Case",
         "category": "case",
         "quantity": 101,
-        "buying_price": 0.15,
-        "Thu Mar  9 19:53:42 2023": "4040.00",
-        "Thu Mar  9 19:54:43 2023": "4030.00",
-        "Thu Mar  9 20:09:46 2023": "3.98"
+        "buying_price": 0.15
     },
     "Shadow Case": {
         "url": "https://steamcommunity.com/market/listings/730/Shadow%20Case",
         "category": "case",
         "quantity": 10,
-        "buying_price": 0.0,
-        "Thu Mar  9 19:53:42 2023": "2040.00",
-        "Thu Mar  9 19:54:43 2023": "2040.00",
-        "Thu Mar  9 20:09:46 2023": "2.04"
+        "buying_price": 0.00
     },
     "Snakebite Case": {
         "url": "https://steamcommunity.com/market/listings/730/Snakebite%20Case",
         "category": "case",
         "quantity": 1,
-        "buying_price": 0,
-        "Thu Mar  9 19:53:42 2023": "1080.00",
-        "Thu Mar  9 19:54:43 2023": "1070.00",
-        "Thu Mar  9 20:09:46 2023": "1.07"
+        "buying_price": 0
     },
     "Spectrum 2 Case": {
         "url": "https://steamcommunity.com/market/listings/730/Spectrum%202%20Case",
         "category": "case",
         "quantity": 1,
-        "buying_price": 0,
-        "Thu Mar  9 19:53:42 2023": "3870.00",
-        "Thu Mar  9 19:54:43 2023": "3860.00",
-        "Thu Mar  9 20:09:46 2023": "4.05"
+        "buying_price": 0
     },
     "Operation Wildfire Case": {
         "url": "https://steamcommunity.com/market/listings/730/Operation%20Wildfire%20Case",
         "category": "case",
         "quantity": 100,
-        "buying_price": 0.59,
-        "Thu Mar  9 19:53:42 2023": "4040.00",
-        "Thu Mar  9 19:54:43 2023": "4040.00",
-        "Thu Mar  9 20:09:46 2023": "4.09"
+        "buying_price": 0.59
     },
     "Sticker | Astralis | Berlin 2019": {
         "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Astralis%20%7C%20Berlin%202019",
         "category": "berlin19",
         "quantity": 15,
-        "buying_price": 3.3,
-        "Thu Mar  9 19:53:42 2023": "1610.00",
-        "Thu Mar  9 19:54:43 2023": "1610.00",
-        "Thu Mar  9 20:09:46 2023": "1.61"
-    },
+        "buying_price": 3.30
+    },    
     "Sticker | chrisJ | Berlin 2019": {
         "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20chrisJ%20%7C%20Berlin%202019",
         "category": "berlin19",
         "quantity": 33,
-        "buying_price": 0.47,
-        "Thu Mar  9 19:53:42 2023": "200.00",
-        "Thu Mar  9 19:54:43 2023": "200.00",
-        "Thu Mar  9 20:09:46 2023": "0.20"
-    },
+        "buying_price": 0.47
+    },    
     "Sticker | DeadFox | Berlin 2019": {
         "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20DeadFox%20%7C%20Berlin%202019",
         "category": "berlin19",
         "quantity": 50,
-        "buying_price": 0.35,
-        "Thu Mar  9 19:53:42 2023": "140.00",
-        "Thu Mar  9 19:54:43 2023": "140.00",
-        "Thu Mar  9 20:09:46 2023": "0.14"
-    },
+        "buying_price": 0.35
+    },  
     "Sticker | dupreeh | Berlin 2019": {
         "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20dupreeh%20%7C%20Berlin%202019",
         "category": "berlin19",
         "quantity": 50,
-        "buying_price": 0.43,
-        "Thu Mar  9 19:53:42 2023": "140.00",
-        "Thu Mar  9 19:54:43 2023": "140.00",
-        "Thu Mar  9 20:09:46 2023": "0.14"
-    },
+        "buying_price": 0.43
+    },    
     "Sticker | karrigan | Berlin 2019": {
         "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20karrigan%20%7C%20Berlin%202019",
         "category": "berlin19",
         "quantity": 50,
-        "buying_price": 0.47,
-        "Thu Mar  9 19:53:42 2023": "460.00",
-        "Thu Mar  9 19:54:43 2023": "460.00",
-        "Thu Mar  9 20:09:46 2023": "0.46"
-    },
+        "buying_price": 0.47
+    },    
     "Sticker | Kjaerbye | Berlin 2019": {
         "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20Kjaerbye%20%7C%20Berlin%202019",
         "category": "berlin19",
         "quantity": 50,
-        "buying_price": 0.39,
-        "Thu Mar  9 19:53:42 2023": "150.00",
-        "Thu Mar  9 19:54:43 2023": "150.00",
-        "Thu Mar  9 20:09:46 2023": "0.15"
-    },
+        "buying_price": 0.39
+    },    
     "Sticker | oskar | Berlin 2019": {
         "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20oskar%20%7C%20Berlin%202019",
         "category": "berlin19",
         "quantity": 50,
-        "buying_price": 0.38,
-        "Thu Mar  9 19:53:42 2023": "170.00",
-        "Thu Mar  9 19:54:43 2023": "170.00",
-        "Thu Mar  9 20:09:46 2023": "0.17"
-    },
+        "buying_price": 0.38
+    },    
     "Sticker | RpK | Berlin 2019": {
         "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20RpK%20%7C%20Berlin%202019",
         "category": "berlin19",
         "quantity": 50,
-        "buying_price": 0.38,
-        "Thu Mar  9 19:53:42 2023": "120.00",
-        "Thu Mar  9 19:54:43 2023": "120.00",
-        "Thu Mar  9 20:09:46 2023": "0.12"
-    },
+        "buying_price": 0.38
+    },    
     "Sticker | xseveN | Berlin 2019": {
         "url": "https://steamcommunity.com/market/listings/730/Sticker%20%7C%20xseveN%20%7C%20Berlin%202019",
         "category": "berlin19",
         "quantity": 50,
-        "buying_price": 0.41,
-        "Thu Mar  9 19:53:42 2023": "130.00",
-        "Thu Mar  9 19:54:43 2023": "130.00",
-        "Thu Mar  9 20:09:46 2023": "0.13"
-    },
+        "buying_price": 0.41
+    },    
     "Special Agent Ava | FBI": {
         "url": "https://steamcommunity.com/market/listings/730/Special%20Agent%20Ava%20%7C%20FBI",
         "category": "skin",
         "quantity": 1,
-        "buying_price": 39.12,
-        "Thu Mar  9 19:53:42 2023": "48180.00",
-        "Thu Mar  9 19:54:43 2023": "48180.00",
-        "Thu Mar  9 20:09:46 2023": "49.79"
+        "buying_price": 39.12
     }
 }
