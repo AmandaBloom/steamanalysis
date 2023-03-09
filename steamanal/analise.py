@@ -26,4 +26,3 @@ class Analiser:
 
 if __name__ == "__main__":
     analiser = Analiser("src/generated.json")
-    pass

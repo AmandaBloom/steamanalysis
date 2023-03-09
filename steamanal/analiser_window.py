@@ -2,6 +2,7 @@ from analise import Analiser
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QIcon, QColor
 from PyQt5.QtCore import pyqtSlot, Qt, QTimer, QObject
+import analiser_window_ui as analiser_window_ui
 import pandas as pd
 import sys
 
@@ -14,12 +15,15 @@ class TableWidget(QTableWidget):
         self.setRowCount(nRows)
         self.setColumnCount(nColumns)
         self.setHorizontalHeaderLabels(list(self.df.columns))
+        header = self.horizontalHeader()
+        header.setSectionResizeMode(QHeaderView.ResizeToContents)
+        header.setSectionResizeMode(0, QHeaderView.Stretch)
 
         for i in range(self.rowCount()):
             for j in range(self.columnCount()):
                 cell = self.df.iloc[i, j]
                 if type(cell) == float:
-                    cell = round(cell, 2)
+                    cell ='{:.2f}'.format(cell)
 
                 cell = str(cell)
                 self.setItem(i, j, QTableWidgetItem(cell))
@@ -37,22 +41,18 @@ class TableWidget(QTableWidget):
 class AnaliserWindow(QMainWindow):
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
-        self.initUI()
+        self.ui = analiser_window_ui.Ui_MainWindow()
+        self.ui.setupUi(self)
+        self.setupTable()
 
-    def initUI(self):
-        self.setGeometry(700, 100, 350, 380)
+    def setupTable(self):
         analiser = Analiser("src/generated.json")
 
         df = analiser.pretty_table
-        self.table = QTableWidget(self)
-        layout = QHBoxLayout()
+        self.ui.tableWidget = TableWidget(df, self)
+        self.ui.tableWidget.setSortingEnabled(True)
 
-        self.table = TableWidget(df, self)
-        self.setCentralWidget(self.table)
-
-        form = QWidget()
-        layout = QFormLayout(form)
-        form.setLayout(layout)
+        self.ui.verticalLayout_2.addWidget(self.ui.tableWidget)
 
 def guiMain(args):
     app = QApplication(args)
