@@ -1,30 +1,72 @@
-from steammarket import get_item
+import steammarket as sm
 import time
 from decimal import Decimal, getcontext
 import json
+import datetime
+from printf import printf
 getcontext().prec = 10  # Setting 10 digits precision for Decimal numbers
 
-with open("src/item_data.json", "r") as file:
+def open_json_file(path=""):
+    file = open(path, "r", encoding='utf-8')
+    return file
+
+
+def load_data_file(path=""):
+    logs = {}
+    start_time = time.ctime()
+    file = open_json_file(path)
+    generated_file = open_json_file("src/generated.json")
     data = json.load(file)
+    generated_data = json.load(generated_file)
     for item in data:
-        requested_item = get_item(item)
+        
+        requested_item = {'success': False}
+        try:
+            requested_item = sm.get_item(item)
+        except sm.Raise429Error:
+            time.sleep(100)
+            requested_item = sm.get_item(item)
+        except sm.RaiseUnableToCatchDataError as e:
+            error_string = str(
+                "On Item: " + item + " HTTP Code Number: " + str(e.error_code) + 
+                "! Check https://en.wikipedia.org/wiki/List_of_HTTP_status_codes for more details!"
+            )
+            printf(error_string)
+            logs[str(datetime.datetime.now())[:-7].replace(':', '')] = error_string
+
         if requested_item != {'success': False}:
-            price_now = Decimal(requested_item["lowest_price"][:-2].replace(',', '.'))
 
-            print(price_now)
-            earnded = price_now - Decimal(data[item]["buying_price"]).normalize()
-            print("Earned", earnded * data[item]["quantity"])
-            print(item, requested_item, '\n')
-            if "prices" in data[item]:
-                data[item]["prices"][time.ctime()] = str(price_now)
+            price_now = Decimal(requested_item["lowest_price"][:-2].replace(',', '.')) 
+
+            printf(price_now)
+            earnded = price_now - Decimal(data[item]["buying_price"]).normalize() 
+            printf("Earned" + str(earnded * data[item]["quantity"]))
+            printf(str(item) + str(requested_item) + '\n')
+            if "prices" in generated_data[item]:
+                generated_data[item]["prices"].update({start_time: str(price_now*1000)})
             else:
-                data[item]["prices"] = {time.ctime(): str(price_now)}
+                generated_data[item]["prices"] = {start_time: str(price_now)}
         else:
-            if "prices" in data[item]:
-                data[item]["prices"][time.ctime()] = "couldn't be loaded"
+            if "prices" in generated_data[item]:
+                generated_data[item]["prices"][start_time] = "couldn't be loaded"
             else:
-                data[item]["prices"] = {time.ctime(): "couldn't be loaded"}
+                generated_data[item]["prices"] = {start_time: "couldn't be loaded"}
+    file.close()
+    generated_file.close()
+    return generated_data, logs
 
-with open("src/generated.json", "w") as output:
-    json.dump(data, output, indent=4)
+def save_market_info(data, path="src/generated.json"):
+    with open(path, "w", encoding='utf-8') as output:
+        json.dump(data, output, indent=4, ensure_ascii=False)
 
+def save_logs(logs):
+    with open("logs/log"+str(datetime.datetime.now())[:-7].replace(':', '')+".log", "w", encoding='utf-8') as output:
+        json.dump(logs, output, indent=4, ensure_ascii=False)
+
+
+if __name__ == "__main__":
+    data, logs = load_data_file(path = "src/item_data_with_err.json")
+            
+    save_market_info(data)
+    save_logs(logs)
+    a = input("Press ANY key to shutdown")

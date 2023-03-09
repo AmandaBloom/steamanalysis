@@ -1,5 +1,20 @@
 import requests
 import time
+import json
+import datetime
+
+
+class Raise429Error(Exception):
+    def __init__(self, *args: object) -> None:
+        super().__init__(*args)
+
+
+class RaiseUnableToCatchDataError(Exception):
+    def __init__(self, code) -> None:
+        super().__init__()
+        self.error_code = code
+
+
 
 def make_request(name):
     url = 'http://steamcommunity.com//market/priceoverview'
@@ -16,10 +31,12 @@ def make_request(name):
 
 
 def get_item(name):
-    market_item  = make_request(name)
+    # market_item = {'success': False}
+    market_item = make_request(name)
     time.sleep(1)
-    while market_item.status_code == 429:
-        print("wyjebało!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        time.sleep(100)
-        market_item  = make_request(name)
-    return market_item.json()
+    if market_item.status_code == 429:
+        raise Raise429Error
+    if market_item.status_code == 200:
+        return market_item.json()
+    else:
+        raise RaiseUnableToCatchDataError(market_item.status_code)
