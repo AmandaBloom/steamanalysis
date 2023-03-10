@@ -18,6 +18,17 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout_2"/>
     </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="sort_button">
+        <property name="text">
+         <string>sort by (test)</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
    </layout>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
