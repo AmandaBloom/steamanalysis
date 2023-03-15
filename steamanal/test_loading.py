@@ -51,7 +51,7 @@ def load_data_file(path=""):
     generated_file.close()
     return generated_data, logs
 
-def save_market_info(data, path="src/generated.json"):
+def save_market_info(data, path="src/gen.json"):
     with open(path, "w", encoding='utf-8') as output:
         json.dump(data, output, indent=4, ensure_ascii=False)
 
@@ -61,7 +61,7 @@ def save_logs(logs):
 
 
 if __name__ == "__main__":
-    data, logs = load_data_file(path = "src/example_data.json")
+    data, logs = load_data_file(path = "src/item_data.json")
             
     save_market_info(data)
     if logs != {}:

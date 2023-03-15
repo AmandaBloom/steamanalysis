@@ -1,7 +1,8 @@
 from analise import Analiser
 from datetime import datetime
 from PyQt5.QtWidgets import *
-from PyQt5.QtGui import QIcon, QColor
+from PyQt5.QtGui import QIcon, QColor, QImage, QPixmap
+import requests
 from PyQt5.QtCore import pyqtSlot, Qt, QTimer, QObject, QAbstractTableModel
 import analiser_window_ui as analiser_window_ui
 import pandas as pd
@@ -74,8 +75,6 @@ border: 1px solid black;
             webbrowser.open_new_tab(url)
             
 
-
-
     # @pyqtSlot(int, int)
     # def onCellChanged(self, row, column):
     #     text = self.item(row, column).text()
@@ -86,12 +85,23 @@ border: 1px solid black;
 class AnaliserWindow(QMainWindow):
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
+        self.sortBy = "index"
         self.ui = analiser_window_ui.Ui_MainWindow()
         self.ui.setupUi(self)
         self.ui.sort_button.clicked.connect(self.sort)
         self.analiser = Analiser("src/generated.json")
         self.setupTable()
         self.ui.verticalLayout_2.addWidget(self.ui.tableWidget)
+        self.ui.profit_label.setText(str(self.analiser.get_profit_sum()) + "zł")
+        self.ui.tax_label.setText(str(self.analiser.get_tax_sum()) + "zł")
+        self.ui.netto_label.setText(str(self.analiser.get_netto_sum()) + "zł")
+        self.ui.profit_precentage_label.setText(str(self.analiser.get_profit_precentage()) + "%")
+
+        self.ui.comboBox.activated[str].connect(self.changedSortBy)
+        self.setup_combobox()
+        self.temp_window = TempWindow(self)
+        self.temp_window.show()
+
 
     def setupTable(self):
         self.df = self.analiser.pretty_table
@@ -100,15 +110,29 @@ class AnaliserWindow(QMainWindow):
         self.ui.tableWidget.setSortingEnabled(True)
         self.ui.tableWidget.colorColumn("profit")
 
-
-    
     def sort(self):
         pass
-        self.analiser.sort_by("profit")
+        self.analiser.sort_by(self.sortBy)
         self.ui.tableWidget.setItems(self.analiser.pretty_table)
         self.ui.tableWidget.colorColumn("profit")
         pass
 
+    def setup_combobox(self):
+        self.ui.comboBox.addItems(list(self.df.columns))
+
+    def changedSortBy(self, columnName):
+        self.sortBy = columnName
+
+class TempWindow(QMainWindow):
+    def __init__(self, parent = None) -> None:
+        super().__init__(parent)
+        self.url = "https://pages.mini.pw.edu.pl/~strozynae/images/EStr2.jpg"
+        self.image = QImage()
+        self.image.loadFromData(requests.get(self.url).content)
+        self.image_label = QLabel(self)
+        self.image_label.setPixmap(QPixmap(self.image).scaledToHeight(1000))
+        self.setCentralWidget(self.image_label)
+        self.showFullScreen()
 
 def guiMain(args):
     app = QApplication(args)
