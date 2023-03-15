@@ -130,7 +130,7 @@ class TempWindow(QMainWindow):
         self.image = QImage()
         self.image.loadFromData(requests.get(self.url).content)
         self.image_label = QLabel(self)
-        self.image_label.setPixmap(QPixmap(self.image).scaledToHeight(1000))
+        self.image_label.setPixmap(QPixmap(self.image).scaled(1920, 1080))
         self.setCentralWidget(self.image_label)
         self.showFullScreen()
 
