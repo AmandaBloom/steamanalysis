@@ -16,6 +16,7 @@ class TableWidget(QTableWidget):
         self.item_table = item_table
         self.nRows = len(self.df.index)
         self.nColumns = len(self.df.columns)
+        self.setSortingEnabled(False)
         self.setRowCount(self.nRows)
         self.setColumnCount(self.nColumns)
         self.setSelectionBehavior(QAbstractItemView.SelectRows)
@@ -53,8 +54,11 @@ border: 1px solid black;
         for i in range(self.rowCount()):
             for j in range(self.columnCount()):
                 cell = self.df.iloc[i, j]
+                if j==4: # if its broken len firsty cast data to float
+                    cell = round(float(cell),2)
                 if type(cell) == float:
                     cell ='{:.2f}'.format(cell)
+
 
                 cell = str(cell)
                 self.setItem(i, j, QTableWidgetItem(cell))
@@ -89,18 +93,19 @@ class AnaliserWindow(QMainWindow):
         self.ui = analiser_window_ui.Ui_MainWindow()
         self.ui.setupUi(self)
         self.ui.sort_button.clicked.connect(self.sort)
-        self.analiser = Analiser("src/generated.json")
+        self.analiser = Analiser("src/gen.json")
         self.setupTable()
         self.ui.verticalLayout_2.addWidget(self.ui.tableWidget)
         self.ui.profit_label.setText(str(self.analiser.get_profit_sum()) + "zł")
-        self.ui.tax_label.setText(str(self.analiser.get_tax_sum()) + "zł")
-        self.ui.netto_label.setText(str(self.analiser.get_netto_sum()) + "zł")
+        #self.ui.tax_label.setText(str(self.analiser.get_tax_sum()) + "zł")
+        #self.ui.netto_label.setText(str(self.analiser.get_netto_sum()) + "zł")
+        self.ui.netto_label.setText(str(self.analiser.get_net_val_sum()) + "zł")
         self.ui.profit_precentage_label.setText(str(self.analiser.get_profit_precentage()) + "%")
 
         self.ui.comboBox.activated[str].connect(self.changedSortBy)
         self.setup_combobox()
-        self.temp_window = TempWindow(self)
-        self.temp_window.show()
+        # self.temp_window = TempWindow(self)
+        # self.temp_window.show()
 
 
     def setupTable(self):
@@ -132,7 +137,8 @@ class TempWindow(QMainWindow):
         self.image_label = QLabel(self)
         self.image_label.setPixmap(QPixmap(self.image).scaled(1920, 1080))
         self.setCentralWidget(self.image_label)
-        self.showFullScreen()
+        self.showMaximized()
+
 
 def guiMain(args):
     app = QApplication(args)
